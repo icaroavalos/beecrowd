@@ -10,4 +10,4 @@ velocidade_media = int(input())
 
 litros_necessarios = (horas*velocidade_media)/12
 
-print(litros_necessarios)
+print(f'{litros_necessarios:.3f}')
